@@ -22,7 +22,7 @@ var cifrar = function(ingresaPalabra) {
 
 	for (var i = 0; i < ingresaPalabra.length; i ++) { //Con un for recorremos toda la palabra ingresada
 
-		var aCifrar = ingresaPalabra[i]; // Creamos una variable que identifique el caraácter a cifrar
+		var aCifrar = ingresaPalabra[i]; // Creamos una variable que identifique el carácter a cifrar
 
 		if (aCifrar.match(/[a-z]/i)) { // Comprobamos que sea una letra
 
@@ -53,10 +53,10 @@ var descifrar = function(ingresaPalabra) {
 			var toAscci = ingresaPalabra.charCodeAt(i); //Y buscamos el número Ascci de esa letra
 
 			if ((toAscci >= 65) && (toAscci<= 90))  // Si son mayúsculas ocupamos:
-				aDescifrar = String.fromCharCode(((toAscci - 65 -7 ) % 26) + 65);
+				aDescifrar = String.fromCharCode(((toAscci - 65 -7 + 52) % 26) + 65);
 
 			else if ((toAscci >= 97) && (toAscci <= 122)) // Si son minúsculas ocupamos:
-				aDescifrar = String.fromCharCode(((toAscci - 97 -7 ) % 26) + 97);
+				aDescifrar = String.fromCharCode(((toAscci - 97 -7 + 52 ) % 26) + 97);
 		}
 		descifrado += aDescifrar; // Creamos la nueva cadena
 	}

@@ -9,6 +9,4 @@
 
 
 **Diagrama de flujo**
-![Imagen diagrama de flujo](https://ibb.co/iuGzrG "Imagen diagrama de flujo")
-![Imagen diagrama de flujo](https://ibb.co/iuGzrG)
 [Imagen diagrama de flujo](https://ibb.co/iuGzrG)

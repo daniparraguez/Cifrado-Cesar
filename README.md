@@ -1,10 +1,3 @@
-# Cifrado César
-## Esto es un título un poco menos grande
-### Esto es un título menos grande que el anterior
-*Esto es cursiva*
-**Esto es Bold**
-~~Esto está tachado~~
-
 # Cifrado César:
 ### Función para encriptar y desencriptar un input dado por el usuario de letras mayúsculas y minúsculas 33 espacios a la derecha del alfabeto.
 
